@@ -17,7 +17,6 @@ Versions:
 tns run ios 
 ```
 * Run the project (Android)
-    ```
-    tns run android 
-    ```
-
+```
+tns run android 
+```
