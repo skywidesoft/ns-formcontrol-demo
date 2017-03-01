@@ -1,0 +1,9 @@
+<ActionBar title="NativeScript Angular Reactive Form Demo">
+</ActionBar>
+<StackLayout class="p-20 form" [formGroup]="contactForm">
+    <Label text="First Name: " class="h3"></Label>
+    <TextField formControlName="firstName" class="input input-border"></TextField>
+    <Label text="Last Name: " class="h3"></Label>
+    <TextField formControlName="lastName" class="input input-border"></TextField>
+    <Button text="Submit" (tap)="onSubmit()"></Button>
+</StackLayout>
