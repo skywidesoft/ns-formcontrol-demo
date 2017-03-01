@@ -13,9 +13,9 @@ Versions:
 * Clone this repo
 * Change to the cloned project directory
 * Run the project (iOS)
-    ```
-    tns run ios 
-    ```
+        ```
+        tns run ios 
+        ```
 * Run the project (Android)
     ```
     tns run android 
