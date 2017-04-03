@@ -1,8 +1,9 @@
-import { NgModule, NO_ERRORS_SCHEMA } from "@angular/core";
-import { NativeScriptModule } from "nativescript-angular/nativescript.module";
-import { NativeScriptFormsModule } from "nativescript-angular/forms";
+import { NgModule, NO_ERRORS_SCHEMA } from '@angular/core';
+import { NativeScriptModule } from 'nativescript-angular/nativescript.module';
+import { NativeScriptAnimationsModule } from 'nativescript-angular/animations';
+import { NativeScriptFormsModule } from 'nativescript-angular/forms';
 import { ReactiveFormsModule } from '@angular/forms';
-import { AppComponent } from "./app.component";
+import { AppComponent } from './app.component';
 
 @NgModule({
     bootstrap: [

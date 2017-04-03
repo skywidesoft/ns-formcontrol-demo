@@ -4,8 +4,9 @@ NativeScript - Angular - Reactive Form - Demo
 This is a simple demo on NativeScript support of Angular's Reactive Form Module.
 
 Versions:
-* NativeScript: 2.5.2
-* NativeScript Angular: 1.4.1
+* NativeScript: 2.5.3
+* NativeScript Angular: 1.5.1
+* Angular: 4.0.1
 
 > In this demo, only TextField was tested. If you found any other input type not working, feel free to raise an issue and I will take a look when have time.
 
