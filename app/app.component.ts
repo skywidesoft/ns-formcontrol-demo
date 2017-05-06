@@ -29,6 +29,8 @@ export class AppComponent implements OnInit {
         console.log('On submit');
 
         console.log(`Contact form valid: ${this.contactForm.valid}`);
+        console.log(`Contact form untouched: ${this.contactForm.untouched}`);
+        console.log(`Contact form touched: ${this.contactForm.touched}`);
         console.log(`Contact form value: ${JSON.stringify(this.contactForm.value)}`);
     }
 
